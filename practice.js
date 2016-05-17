@@ -87,7 +87,7 @@ var myUser = {
 
 var getMyUsername = function(){
   console.log(this.username);
-}.bind(myUser);
+}getMyUsername.bind(myUser);
 
 setTimeout(myUser.getMyUsername(), 5000);
 
